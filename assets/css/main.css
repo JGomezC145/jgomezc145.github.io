@@ -46,6 +46,16 @@ blockquote, q {
 		content: none;
 	}
 
+i.bx {
+	vertical-align: baseline;
+	
+}
+i.site.bx {
+	color: greenyellow;
+}
+i.repo.bx {
+	color: rgb(0, 0, 0);
+}
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
