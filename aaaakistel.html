@@ -40,5 +40,50 @@
         </footer>
     
     </div>
+    <script>
+    const simple = (a, j) => {
+        var response;
+        if (a > j) {
+            response = `${a} es mayor a ${j}`
+        } else if (a < j) {
+            response = `${a} es menor a ${j}`
+        } else if (a === j){
+            response = `${a} es igual a ${j}`
+        } else {
+            response = `No tengo la menor idea sobre: ${a} ni ${j}`
+        }
+        return response
+    }
+    let nose = {
+        piola(n, autista){
+            if (autista === "si") {
+                return "nada piola"
+            } else {
+            return "si es piola"
+            }
+        },
+        nopiola(){
+            console.log("no es piola")
+        }
+    }
+    </script>
+
+    <!-- Intentando un poco de POO -->
+    <script>
+        function createNewPerson(name) {
+            var obj = {};
+            obj.name = name;
+            obj.greeting = function() {
+                alert('Hi! I\'m ' + this.name + '.');
+            };
+            return obj;
+        }
+        function Person(name){
+            this.name = name;
+            this.greeting = function() {
+                alert('Hi! I\'m ' + this.name + '.');
+            };
+        }
+    </script>
 </body>
 </html>
