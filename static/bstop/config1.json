@@ -1,0 +1,13 @@
+{
+  "version": "2",
+  "semester":"II Ciclo",
+  "year": 2025,
+  "busStop1": {
+    "name": "Educación",
+    "url": "https://jgomezc145.github.io/static/educ.json"
+  },
+  "busStop2": {
+    "name": "Artes Plásticas",
+    "url": "https://jgomezc145.github.io/static/arts.json"
+  }
+}
